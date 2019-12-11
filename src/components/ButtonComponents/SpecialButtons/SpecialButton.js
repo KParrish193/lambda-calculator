@@ -5,6 +5,7 @@ const SpecialButton = props => {
   console.log();
   return (
     <button className="special-buttons">
+      {/* onClick={() => props.setSpecialsState()}> */}
       <span>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
       {props.button}

@@ -4,7 +4,11 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding: 35px 15px 35px 25px;
+    padding: 35px 20px;
+}
+
+.logo-container{
+    padding: 20px;
 }
 
 .display {
@@ -20,6 +24,7 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin: 0 auto;
 }
 
 .allbuttons {
@@ -57,36 +62,36 @@
 
 .number-button{
     color: #F2F2F2;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     background-color: #184379;
     height: 75px;
     width: 75px;
     border-radius: 40px;
     margin: 10px;
-    box-shadow: 2px 5px #480E14;
+    box-shadow: 2px 7px #480E14;
     border: none;
 }
 
 .operator-button{
     color: #F2F2F2;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     background-color: #237292;
     height: 75px;
     width: 75px;
     border-radius: 40px;
     margin: 10px;
-    box-shadow: 2px 5px #480E14;
+    box-shadow: 2px 7px #480E14;
     border: none;
 }
 
 .special-buttons{
     color: #F2F2F2;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     background-color: #215D9E;
     height: 75px;
     width: 75px;
     margin: 10px;
     border-radius: 40px;
-    box-shadow: 2px 5px #480E14;
+    box-shadow: 2px 7px #480E14;
     border: none;
 }
