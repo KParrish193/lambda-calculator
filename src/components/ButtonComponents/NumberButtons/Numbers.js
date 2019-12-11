@@ -1,13 +1,12 @@
 import React, {useState} from "react";
-
 //import any components needed
 // example of import from data.js. Note all the ../   This is how we move through folders. 
-import NumberButton from "../NumberButtons/NumberButton"
-import { numbers } from "../../../data"
+import NumberButton from "../NumberButtons/NumberButton";
+import { numbers } from "../../../data";
 
 //Import your array data to from the provided data file
 
-const Numbers = () => {
+export default function Numbers() {
   // STEP 2 - add the imported data to state
   const [numState, setNumState] = useState(numbers)
 
@@ -24,6 +23,6 @@ const Numbers = () => {
   );
 };
 
-export default Numbers;
+
 
 
