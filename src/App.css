@@ -4,8 +4,13 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 35px 20px;
 }
+
+.logo-container{
+    padding: 20px;
+}
+
 .display {
     margin-top: 25px;
     height: 100px;
@@ -19,4 +24,74 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    margin: 0 auto;
+}
+
+.allbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    height: 500px;
+    padding-top: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    width: 70%;
+}
+
+.opsbtns {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+
+.specialbtns {
+    display: flex;
+    flex-direction: row;
+}
+
+.numberbtns {
+    display: flex;
+}
+
+.number-button{
+    color: #F2F2F2;
+    font-size: 1.7rem;
+    background-color: #184379;
+    height: 75px;
+    width: 75px;
+    border-radius: 40px;
+    margin: 10px;
+    box-shadow: 2px 7px #480E14;
+    border: none;
+}
+
+.operator-button{
+    color: #F2F2F2;
+    font-size: 1.7rem;
+    background-color: #237292;
+    height: 75px;
+    width: 75px;
+    border-radius: 40px;
+    margin: 10px;
+    box-shadow: 2px 7px #480E14;
+    border: none;
+}
+
+.special-buttons{
+    color: #F2F2F2;
+    font-size: 1.7rem;
+    background-color: #215D9E;
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 2px 7px #480E14;
+    border: none;
+}
